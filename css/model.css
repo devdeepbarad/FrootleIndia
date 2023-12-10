@@ -1,0 +1,390 @@
+.ajax-success-modal .content,
+.ajax-error-modal .modal-inner {
+    padding: 80px 40px 40px;
+    background-color: #ffffff;
+    bottom: auto;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 50% !important;
+    width: 900px;
+    color: initial;
+    box-shadow: 0 0 10px rgba(24, 24, 24, 0.2);
+    float: left;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: auto;
+    z-index: 999;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+@media screen and (max-width: 967px) {
+    .ajax-success-modal .content,
+    .ajax-error-modal .modal-inner {
+        padding: 60px 20px20px
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .ajax-success-modal .content,
+    .ajax-error-modal .modal-inner {
+        padding: 10px
+    }
+}
+
+@media screen and (max-width: 967px) {
+    .ajax-success-modal .content,
+    .ajax-error-modal .modal-inner {
+        width: 730px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .ajax-success-modal .content,
+    .ajax-error-modal .modal-inner {
+        width: 450px
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .ajax-success-modal .content,
+    .ajax-error-modal .modal-inner {
+        width: 75%;
+        padding: 90px 20px 30px
+    }
+    .ajax-success-modal .content .ajax-left,
+    .ajax-error-modal .modal-inner .ajax-left {
+        padding-right: 0;
+        padding-top: 0;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center
+    }
+}
+
+.ajax-success-modal .overlay,
+.quick-view .overlay,
+.quickview-template .content,
+.sweet-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 99
+}
+
+.ajax-success-modal .added-to-cart.info {
+    position: relative;
+    text-transform: capitalize
+}
+
+@media screen and (max-width: 567px) {
+    .ajax-success-modal .added-to-cart.info {
+        margin-bottom: 20px
+    }
+}
+
+.ajax-success-modal .btn-secondary {
+    padding: 0 20px
+}
+
+.ajax-success-modal .success-message {
+    padding: 0;
+    display: inline-block;
+    margin: 0
+}
+
+.ajax-success-modal .success-message:last-child a {
+    margin-bottom: 0
+}
+
+.ajax-success-modal .success-message a {
+    line-height: normal
+}
+
+@media screen and (max-width: 567px) {
+    .ajax-success-modal .success-message a {
+        font-size: 13px
+    }
+}
+
+.ajax-success-modal .success-message p {
+    display: inline-block;
+    width: 100%;
+    margin: 0
+}
+
+.ajax-success-modal .btn i,
+.ajax-success-modal .btn--secondary i,
+.ajax-success-modal .btn--tertiary i,
+.ajax-success-modal input[type="submit"] i {
+    margin-right: 10px
+}
+
+.ajax-success-modal .close-modal i {
+    background: #ffffff;
+    border-radius: 50%;
+    font-size: 20px
+}
+
+.ajax-success-modal .overlay {
+    background: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 99
+}
+
+.ajax-success-modal .ajax-left {
+    float: left;
+    padding-right: 15px;
+    width: 60%;
+    border-right: 1px solid #e4e4e4;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+@media screen and (max-width: 567px) {
+    .ajax-success-modal .ajax-left {
+        border: none;
+        padding-top: 30px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .ajax-success-modal .ajax-left {
+        width: 100%;
+        margin-bottom: 40px;
+        border-right: none;
+        border-bottom: 1px solid #e4e4e4;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: row-reverse;
+        padding-right: 0
+    }
+}
+
+.ajax-success-modal .added-to-cart.info,
+.ajax-success-modal .added-to-wishlist.info {
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+    line-height: normal;
+    padding: 10px 60px;
+    width: 100%;
+    background-color: #575757;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+@media screen and (max-width: 567px) {
+    .ajax-success-modal .added-to-cart.info,
+    .ajax-success-modal .added-to-wishlist.info {
+        padding: 10px 35px
+    }
+}
+
+.ajax-success-modal .ajax_price {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px
+}
+
+.ajax-success-modal .ajax_price:empty {
+    display: none
+}
+
+.ajax-cart-desc {
+    float: left;
+    width: 52%;
+    margin-left: 25px
+}
+
+@media screen and (max-width: 767px) {
+    .ajax-cart-desc {
+        margin-right: 20px;
+        margin-left: 0;
+        width: 54%
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .ajax-cart-desc {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+        width: 100%
+    }
+}
+
+.ajax-content-section {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: auto
+}
+
+.ajax-product-image {
+    width: 40%;
+    float: left;
+    box-shadow: 0 0 1px 1px #e4e4e4;
+    display: block
+}
+
+.ajax-cart-desc p {
+    font-size: 15px
+}
+
+.ajax-right {
+    float: left;
+    width: 40%;
+    text-align: left;
+    padding-left: 30px
+}
+
+@media screen and (max-width: 767px) {
+    .ajax-right {
+        width: 100%;
+        padding-left: 0
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .ajax-right {
+        text-align: center
+    }
+}
+
+.ajax-right p {
+    font-size: 16px;
+    margin-bottom: 10px
+}
+
+.ajax-right .ajax_price {
+    font-size: 16px;
+    font-weight: 100;
+    float: left;
+    width: 100%;
+    margin-bottom: 7px
+}
+
+@media screen and (max-width: 567px) {
+    .ajax-right .ajax_price {
+        margin-bottom: 5px;
+        font-size: 14px
+    }
+}
+
+.ajax-right .success-message p {
+    font-size: 14px
+}
+
+.ajax_cartTotal {
+    float: left;
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 10px
+}
+
+@media screen and (max-width: 1599px) {
+    .ajax_cartTotal {
+        font-size: 24px
+    }
+}
+
+.close-modal {
+    background: url(//cdn.shopify.com/s/files/1/0454/2477/1240/t/2/assets/hover.png?v=14866871867660656306) no-repeat;
+    border: none;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+.btn{
+    background: rgb(51, 156, 197, 1);
+    
+    background-size: 300% 100% !important;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    display: inline-block;
+    line-height: normal;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    padding: 12px 25px;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 16px;
+    font-weight: normal;
+    outline: none;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out
+}
+
+@media screen and (max-width: 1199px) {
+    .btn{
+        padding: 10px 20px;
+        font-size: 15px
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .btn {
+        padding: 8px 15px;
+        font-size: 14px
+    }
+}
+
+.btn:hover {
+    background-position: 100% 0 !important;
+    background: #111;
+    color: #ffffff;
+    border-color: #111;
+}
