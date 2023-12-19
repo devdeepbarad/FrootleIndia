@@ -1,0 +1,143 @@
+        .desk_view {
+            display: block;
+        }
+        
+        .m_view {
+            display: none;
+        }
+        
+        .pad-20 {
+            padding: 10px 15px;
+        }
+        
+        .mar-20 {
+            margin: 15px;
+        }
+        
+        .blendtec-product-title {
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 32px;
+            text-align: center;
+        }
+        
+        .blendtec-brand-content {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;
+            padding: 20px;
+            margin: 0px auto;
+        }
+        
+        .product-inner5 img {
+            height: 400px;
+            width: auto;
+        }
+        
+        .form-group {
+            margin-top: 40px;
+        }
+        
+        .col-form-label {
+            font-weight: 700;
+            text-align: right;
+            color: #333333;
+        }
+        
+        .btn {
+            background: #333333;
+            color: #fff;
+        }
+        
+        .product-content h3 {
+            text-align: center;
+        }
+        
+        .solution-text {
+            text-align: justify;
+        }
+        
+        .slick-arrow {
+            top: 50%;
+            height: 26px;
+            width: 14px;
+            position: absolute;
+            font-size: 0;
+            cursor: pointer;
+            background-color: transparent;
+            border: none;
+            background-image: url(https://frootleindia.com/images/arrow-slider.png);
+            background-repeat: no-repeat;
+            z-index: 1000;
+        }
+        
+        .slick-prev:before {
+            content: '';
+        }
+        
+        .slick-next:before {
+            content: '';
+        }
+        
+        .slick-prev {
+            left: 15px;
+            transform: rotate(180deg);
+        }
+        
+        .slick-next {
+            right: 15px;
+            top: 52%;
+        }
+        
+        .h3,
+        h3 {
+            font-size: 1.4rem;
+        }
+        
+        @media all and (max-width:767px) {
+            .desk_view {
+                display: none;
+            }
+            .m_view {
+                display: block;
+            }
+            .form-group {
+                margin-top: 30px;
+            }
+            .col-form-label {
+                font-weight: 700;
+                text-align: left;
+                color: #333333;
+            }
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        ul#menu {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+        }
+        
+        ul#menu li {
+            display: inline;
+            padding: 20px;
+        }
+        
+        ul#menu li a {
+            color: #000;
+        }
+        
+        @media screen and (max-width: 767px) {
+            ul#menu {
+                display: flex;
+                list-style: none;
+                flex-direction: column;
+                justify-content: center;
+            }
+            ul#menu li {
+                padding: 0px;
+            }
+        }
